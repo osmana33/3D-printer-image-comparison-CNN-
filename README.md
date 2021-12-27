@@ -1,2 +1,3 @@
 # 3D-printer-image-comparison-CNN-
 Train a model to be able to recognize failures in 3D printed layers (CNN code).
+In this project, the goal is to train a model to be able to recognize failures in 3D printed layers. To accomplish this, the model is fed training photos of good and bad layers of a 3D print then tested with different batches of photos to evaluate it's accuracy. A CNN model is chosen for this project as it appeared in related research papers, and gave the best results. A simpler method was also tried out using 1D arrays for each photo, the mean and standard of deviation of the array are compared against each other to find if it was capable of predicting failure without using image processing. However, this proves to be very inaccurate and was thus scrapped.
